@@ -1,0 +1,32 @@
+
+body{
+    background-color: #fdfafb;
+    height: 100%;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.botoes {
+   transition: .3s;
+   top: 800px;
+   left: 30px;
+}
+.atributos{
+    transition: .5s;
+    position: absolute;
+    top: 120px;
+    left: 700px;
+}
+
+.img {
+    position: absolute;
+}
+.nav-wrapper {
+    background: #ee5562; 
+}
