@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Centro from './Centro';
 import NavBar from './NavBar';
+/*import SideBar from './SideBar';*/
 
 //import Rodape from './Rodape';
 
@@ -10,7 +11,7 @@ class App extends Component{
        
         return(
            <div>
-              
+               {/*<SideBar />*/}
                 <NavBar />
                 <Centro/>
             </div>
