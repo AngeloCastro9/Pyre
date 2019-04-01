@@ -22,20 +22,18 @@ class Centro extends Component {
     state = {
         mulherAtual: {},
         mulheres: [
-            { id: 1, imagem: "women2.jpeg", nome: "Josefina, 23", idade: "23", descricao: " Me chamo Josefina, da uma pizza pro Angelo, Dudu!!",meCurtiu: true },
-            { id: 2, imagem: "women.jpg", nome: "Fernandinha", idade: "20",descricao: " DA UMA PIZZA PRO ANGELO, ELE VAI FICAR FELIZ!",meCurtiu: true },
-            { id: 3, imagem: "women3.jpg", nome: "Sofia", idade: "22",descricao:  "PIZZAAAAAAAAAAAAAAAAA",meCurtiu: true },
-            { id: 4, imagem: "women5.jpeg", nome: "Marta", idade: "19", descricao: "DIA 16, OK?",meCurtiu: true },
-            { id: 5, imagem: "women4.jpeg", nome: "Erizete", idade: "20", descricao: "TODO MUNDO COVIDADO",meCurtiu: true },
+            { id: 1, imagem: "women2.jpeg", nome: "Josefina, 23", idade: "23", descricao: "me chamo Josefina, sou uma pessoa legal",meCurtiu: true },
+            { id: 2, imagem: "women.jpg", nome: "Fernandinha", idade: "20",descricao: " Vamos sair?",meCurtiu: true },
+            { id: 3, imagem: "women3.jpg", nome: "Sofia", idade: "22",descricao:  "uma pizza talvez? :)",meCurtiu: true },
+            { id: 4, imagem: "women5.jpeg", nome: "Marta", idade: "19", descricao: "olá!",meCurtiu: true },
+            { id: 5, imagem: "women4.jpeg", nome: "Erizete", idade: "20", descricao: "nenhuma descrição disponivel",meCurtiu: true },
             { id: 6, imagem: "fim.jpg"},
         ],
         index: 0
     }
 
     showMatch = () => {
-       alert("DEU MATCH")
-        
-        console.log('ROLA O MATCH')
+       alert("DEU MATCH")        
     }
 
     like = () => {
@@ -90,9 +88,6 @@ class Centro extends Component {
                     </Row>
                 </div>
             </div>
-
-
-
         );
 
     }
